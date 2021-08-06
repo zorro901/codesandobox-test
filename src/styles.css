@@ -24,7 +24,9 @@ button:hover {
 li button {
   margin-left: 10px;
 }
-
+ul {
+  list-style: none;
+}
 .input-area {
   background-color: #c1ffff;
   width: 400px;
@@ -57,8 +59,9 @@ li button {
   color: #666;
 }
 
-.list-row {
+.list-row div {
   display: flex;
   align-items: center;
   padding-bottom: 4px;
+  /* margin-top: -25px; */
 }
